@@ -1,0 +1,40 @@
+body {
+    text-align: center;
+    font: sans-serif;
+    color: black;
+    background-image: url("images/maine_ocean.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    color: grey;
+    font-weight: bold;
+}
+header h3 {
+    color: black;
+}
+
+#highlights {
+    text-align: left;
+    color: navy;
+    background-color: #CADCE6;
+    opacity: .5;
+    font-size: 18px;
+    
+}
+#profile {
+    opacity: .85;
+}
+
+ul #highlights{
+    list-style-type: circle;
+    margin: 0px;
+    padding: 0px 20px;
+    opacity: 1.0;
+}
+div h4 #highlights{
+    font-size: 35px;
+    margin: 0px;
+    opacity: 1.0;
+}
