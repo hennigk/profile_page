@@ -2,8 +2,9 @@ body {
     text-align: center;
     font: sans-serif;
     color: black;
-    background-image: url("images/maine_ocean.jpg");
-    background-repeat: no-repeat;
+    background: 
+    linear-gradient(rgba(208,208,208,.3), rgba(208,208,208,.3)), 
+    url("images/maine_ocean.jpg"), no-repeat;
     background-size: cover;
 }
 
@@ -19,22 +20,51 @@ header h3 {
     text-align: left;
     color: navy;
     background-color: #CADCE6;
-    opacity: .5;
     font-size: 18px;
+    border-radius: 10%;
     
 }
 #profile {
     opacity: .85;
+    border-radius: 70%;
 }
 
-ul #highlights{
+div #list {
     list-style-type: circle;
     margin: 0px;
     padding: 0px 20px;
-    opacity: 1.0;
+    font-weight: bold;
+
 }
-div h4 #highlights{
+div h4 {
     font-size: 35px;
-    margin: 0px;
-    opacity: 1.0;
+    margin: 10px 0px 0px 20%;
+
+}
+.trans {
+    opacity: .5;
+    width: 60%;
+    min-width: 350px;
+}
+
+footer {
+    color: black;
+    text-align: center;
+}
+footer a:hover {
+    font-weight: bold;
+}
+footer a:visited {
+    color: red;
+}
+footer a {
+    text-decoration: none;
+}
+#linkedin {
+    margin: -8px 0px ;
+    padding: 0px;
+}
+
+.subPoints {
+    font-size: 15px;
 }
